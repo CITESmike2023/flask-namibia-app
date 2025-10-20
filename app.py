@@ -18,7 +18,7 @@ def describe_image(image, api_key):
     """
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel(model_name='gemini-1.5-flash', 
+        model = genai.GenerativeModel(model_name='gemini-2.5-flash', 
         generation_config={"response_mime_type": "application/json"})
 
         prompt = """ This image contains possible animals in Namibia Desert at a waterhole. 
@@ -121,3 +121,4 @@ def index():
 if __name__ == "__main__":
     print("🚀 Starting Flask app... Visit http://127.0.0.1:5000/")
     app.run(debug=True)
+
