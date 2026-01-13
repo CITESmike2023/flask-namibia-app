@@ -14,7 +14,7 @@ API_KEY = "AIzaSyB9YAQGtQkvbZ3dWdd7tF63eLts4ubXwro"  # Replace with your actual 
 
 def describe_image(image, api_key):
     """
-    Uses Gemini 1.5 Flash to analyze an image and extract species details.
+    Uses Gemini 2.5 Flash to analyze an image and extract species details.
     """
     try:
         genai.configure(api_key=api_key)
