@@ -10,7 +10,7 @@ import base64
 app = Flask(__name__)
 
 # Set API Key
-API_KEY = "AIzaSyB9YAQGtQkvbZ3dWdd7tF63eLts4ubXwro"  # Replace with your actual API key
+# API_KEY = ""  # Replace with your actual API key
 
 def describe_image(image, api_key):
     """
